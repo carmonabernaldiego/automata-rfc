@@ -5,11 +5,19 @@ Debera anexar su presentación, pantalla y el codigo, anexar en el mismo pdf  de
  
 
 Deberá aceptar cadenas Mayusculas y Minusculas el Rfc
+
 entrada resultado     grafica.-
+
 GUAL  Cadena Valida .- automata
+
 gual  cadena valida .-
+
 GUA   cadena valida .- automata
+
 Gu    Cadena Valida.-  automata
+
 G     Cadena Valida.-  automata
+
 GUL   Cadena no valida.-  no se hace
+
 GA.-  Cadena no valida.- no se hace.

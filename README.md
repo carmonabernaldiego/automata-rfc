@@ -1,23 +1,13 @@
-Validar la entrada de datos de tu RFC,  para ello requiero que tenga la expresión regular y genere el automata de la cadena acepta, es decir que debe teclar las  primero 4 letras de tu RFC.Siempre tiene que respetar la cadena
-de entrada de tu rfc debe ir en ese orden.
-Deberá realizar en cualquier lenguaje,
-Debera anexar su presentación, pantalla y el codigo, anexar en el mismo pdf  de la presentación el codigo con el url de github.
- 
+Validación de la entrada de datos del RFC: Se requiere validar la entrada de los primeros cuatro caracteres del RFC, para lo cual se necesita una expresión regular y generar el autómata de la cadena aceptada. Esto implica que el usuario deberá ingresar las primeras cuatro letras de su RFC, respetando siempre el orden de entrada. El programa debe aceptar cadenas tanto en mayúsculas como en minúsculas.
 
-Deberá aceptar cadenas Mayusculas y Minusculas el Rfc
+El desarrollo del programa puede realizarse en cualquier lenguaje de programación. Además, se deberá incluir una presentación, capturas de pantalla y el código. El código debe estar disponible en un repositorio de GitHub, cuya URL será incluida en el mismo PDF de la presentación.
 
-entrada resultado     grafica.-
+Ejemplos de entrada y resultados esperados:
 
-GUAL  Cadena Valida .- automata
-
-gual  cadena valida .-
-
-GUA   cadena valida .- automata
-
-Gu    Cadena Valida.-  automata
-
-G     Cadena Valida.-  automata
-
-GUL   Cadena no valida.-  no se hace
-
-GA.-  Cadena no valida.- no se hace.
+Entrada: "GUAL" - Resultado: Cadena válida - Autómata
+Entrada: "gual" - Resultado: Cadena válida
+Entrada: "GUA" - Resultado: Cadena válida - Autómata
+Entrada: "Gu" - Resultado: Cadena válida - Autómata
+Entrada: "G" - Resultado: Cadena válida - Autómata
+Entrada: "GUL" - Resultado: Cadena no válida
+Entrada: "GA" - Resultado: Cadena no válida
